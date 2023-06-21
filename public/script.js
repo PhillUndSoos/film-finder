@@ -1,3 +1,5 @@
+//this is the file i'll mainly be working on. Most of style.css, helpers.js, index.html aswell as the file structure were provided by Codecademy.com
+
 const tmdbKey = '';
 const tmdbBaseUrl = '';
 const playBtn = document.getElementById('playBtn');
