@@ -2,7 +2,7 @@
 
 ### Description:
 
-#### This app that will recommend random movies by the selected genre using the TMDB API.
+#### This app will recommend random movies by the selected genre using the TMDB API.
 
 ## **You will need to provide your own API Key in script.js:3**
 
