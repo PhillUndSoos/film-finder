@@ -6,9 +6,9 @@
 
 ## **You will need to provide your own API Key in script.js:3**
 
-### How to get a API Key:
+### How to get an API Key:
 
-### Create an TMDB Account
+### Create a TMDB Account
 
 #### 1. Go to https://www.themoviedb.org/signup
 
