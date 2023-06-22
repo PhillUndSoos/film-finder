@@ -1,6 +1,6 @@
 //this is the file i'll mainly be working on. Most of style.css, helpers.js, index.html aswell as the file structure were provided by Codecademy.com
 
-const tmdbKey = '0d91321457464055b1b02750ce6dcc2c';
+const tmdbKey = ''; //API KEY HERE
 const tmdbBaseUrl = 'https://api.themoviedb.org/3';
 const playBtn = document.getElementById('playBtn');
 
