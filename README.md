@@ -6,7 +6,7 @@
 
 ## **You will need to provide your own API Key in script.js:3**
 
-### How to get an API Key:
+### How to get a API Key:
 
 ### Create an TMDB Account
 
