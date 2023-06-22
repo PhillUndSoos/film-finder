@@ -54,10 +54,10 @@ const createMoviePoster = (posterPath) => {
 };
 
 // Create HTML for movie title
-const createMovieTitle = (title) => {
+const createMovieTitle = (title, originalTitle = "") => {
     const titleHeader = document.createElement('h1');
     titleHeader.setAttribute('id', 'movieTitle');
-    titleHeader.innerHTML = title;
+    titleHeader.innerHTML = `${title} ${originalTitle}`;
   
     return titleHeader;
 };
@@ -87,7 +87,18 @@ const displayMovie = (movieInfo) => {
   
     // Create HTML content containing movie info
     const moviePoster = createMoviePoster(movieInfo.poster_path);
-    const titleHeader = createMovieTitle(movieInfo.title);
+    //const titleHeader = createMovieTitle(movieInfo.title);
+    let titleHeader;
+    if (movieInfo.original_title) {
+        if(movieInfo.original_title != movieInfo.title){
+            titleHeader = createMovieTitle(movieInfo.title, ` / ${movieInfo.original_title}`)
+        } else {
+            titleHeader = createMovieTitle(movieInfo.title)
+        }
+        
+    } else {
+        titleHeader = createMovieTitle(movieInfo.title);  
+    }
     const overviewText = createMovieOverview(movieInfo.overview);
   
     // Append title, poster, and overview to page
