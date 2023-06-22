@@ -1,6 +1,6 @@
 //this is the file i'll mainly be working on. Most of style.css, helpers.js, index.html aswell as the file structure were provided by Codecademy.com
 
-const tmdbKey = ''; //API KEY HERE
+const tmdbKey = ''; //API KEY INSIDE THE PARENTHESIS 
 const tmdbBaseUrl = 'https://api.themoviedb.org/3';
 const playBtn = document.getElementById('playBtn');
 
