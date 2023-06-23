@@ -8,7 +8,7 @@
 
 ### How to get an API Key:
 
-### Create an TMDB Account
+### Create a TMDB Account
 
 #### 1. Go to https://www.themoviedb.org/signup
 
